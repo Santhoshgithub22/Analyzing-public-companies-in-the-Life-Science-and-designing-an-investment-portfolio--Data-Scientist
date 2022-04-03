@@ -1,0 +1,16 @@
+h1 {
+   
+    color:cyan;
+    text-align: center;
+    background-color:black ;
+}
+
+label{
+    margin: 0 auto;
+    
+}
+input {
+    margin : 0 auto;
+    text-align: center;
+    display:block;
+}

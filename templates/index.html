@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model Deployment</title>
+</head>
+<body>
+    <h1>Stock Price Prediction</h1>
+    <form action="/predict" method = "POST" style ="text-align: center;">
+        <div>
+        <p class="big">
+        <label>Enter Open Price</label>
+        <input type ="text" name = "Open" style = "margin: 0 auto;"><br>
+            </p>
+        <div>
+            
+        <div>
+            <p class="big">
+        <label>Enter High Price</label>
+        <input type ="text" name = "High" style = "margin: 0 auto;">
+            </p>
+        <div>
+            
+        <div>
+            <p class="big">
+        <label>Enter Low Price</label>
+        <input type="text" name = "Low" style = "margin: 0 auto;">
+            </p>
+        <div>
+            
+        <div>
+            <p class="big">
+        <label>Enter Close Price</lable>
+        <input type ="text" name = "Close" style = "margin: 0 auto;">
+            </p>
+        <div>
+            
+        <div>
+            <p class="big">
+        <label>Enter Adj Close Price</label>
+        <input type ="text" name = "Adj Close" style = "margin: 0 auto;">
+            </p>
+        <div>   
+        
+        <div>
+            <p class="big">
+        <label>Enter Volume Price</label>
+        <input type ="text" name = "Volume" style = "margin: 0 auto;">
+            </p>
+        <div>
+            
+        <button type="submit">Predict</button>
+            
+            <p class="big">
+            </p>
+        </script>
+            
+            <footer style="margin-top: 4rem; opacity: .7">
+      &copy; Copyright reserved by Santhosh Kumar.
+    </footer>
+    
+            <div class="warning">
+      <div>Please fill the form completely!</div>
+    </div>
+
+    <div class="up">
+      <div>The Stock Price Probably Goes UP!</div>
+    </div>
+    
+    <div class="down">
+      <div>
+        The Stock Price Probably Goes DOWN</u>!
+      </div>
+    </div>
+        
+        
+    </form>
+
+</body>
+</html>
