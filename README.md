@@ -49,7 +49,7 @@ After removing outliers we got only 89929 rows instead of 108945 rows.
 Random Forest Classifier was trained and it got the accuracy of 87%
 ## Support Vector Machine Classifier 
 
-Support Vector Machine Classifier was trained and it got the accuracy of 85%
+Support Vector Machine Classifier was trained and it got the accuracy of 86%
 ## Model Deployement
 Flask and Django used to deploy the Model
 
